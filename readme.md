@@ -151,6 +151,21 @@ As operações foram realizadas utilizando a [collection oficial do FIWARE Desco
 
 ---
 
+## Adaptações Realizadas
+
+O projeto foi baseado na PoC Smart Lamp do [FIWARE Descomplicado](https://github.com/fabiocabrini/fiware), com as seguintes adaptações para o contexto da Vinheria Agnello:
+
+- `device_id` alterado de `lamp001` para `vinheria001`
+- `entity_name` alterado de `urn:ngsi-ld:Lamp:001` para `urn:ngsi-ld:Vinheria:001`
+- `entity_type` alterado de `Lamp` para `SensorLDR`, refletindo o sensor utilizado no projeto
+- Tópicos MQTT alterados de `/TEF/lamp001/` para `/TEF/vinheria001/`
+- Descrição do registro alterada de `Lamp Commands` para `Vinheria Commands`
+- Subscrição do STH-Comet atualizada para monitorar a entidade `urn:ngsi-ld:Vinheria:001` do tipo `SensorLDR`
+- O cabeçalho do código `.ino` foi atualizado com os autores originais e os integrantes do grupo
+- A rede Wi-Fi foi configurada para `Wokwi-GUEST` na simulação e `FIAP-IOT` no ESP32 físico
+
+---
+
 ## Referências
 
 - [FIWARE Descomplicado — Prof. Fábio Cabrini](https://github.com/fabiocabrini/fiware)
