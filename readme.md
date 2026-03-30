@@ -71,10 +71,12 @@ Todos os componentes FIWARE estão hospedados em uma VM Ubuntu no **Microsoft Az
 ## Entidade FIWARE
 
 O dispositivo foi registrado no FIWARE com o seguinte ID:
+```
+urn:ngsi-ld:Vinheria:001
+```
 
-```
-urn:ngsi-ld:Lamp:vinheria001
-```
+- **Device ID:** `vinheria001`
+- **Entity Type:** `SensorLDR`
 
 ### Tópicos MQTT
 
