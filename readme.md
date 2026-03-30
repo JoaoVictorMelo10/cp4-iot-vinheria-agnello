@@ -108,7 +108,11 @@ Acesse a simulação completa do projeto no link abaixo:
 
 ## Vídeo Demonstrativo
 
-> **[LINK DO VÍDEO AQUI]** — Vídeo demonstrando o funcionamento no Wokwi e os comandos via Postman.
+Confira abaixo a demonstração prática da solução, apresentando a variação de luminosidade no Wokwi, o recebimento dos dados no FIWARE e o controle do LED via comandos no Postman:
+
+[![Assista ao vídeo](https://img.youtube.com/vi/amsfoUfaOX0/0.jpg)](https://www.youtube.com/watch?v=amsfoUfaOX0)
+
+🔗 [Clique aqui para assistir no YouTube](https://youtu.be/amsfoUfaOX0)
 
 ---
 
